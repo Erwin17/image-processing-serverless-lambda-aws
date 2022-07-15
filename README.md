@@ -2,7 +2,7 @@
 
 La lambda en este repositorio esta construida para procesar imagenes cada vez que se agrega un objecto "imagen" en el bucket S3.
 
-Existe una clase la cual ya tiene definido 4 metodos para realizar operaciones sobre la misma mediante un parametros que se toma desde la variable de entorno de la lambda.
+Existe una clase la cual ya tiene definido 4 metodos para realizar operaciones sobre la misma mediante un parametro que se toma desde la variable de entorno de la lambda.
 
 ## Muestra de una imagen original
 ![](resource/apartments.png)
