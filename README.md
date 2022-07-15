@@ -16,15 +16,15 @@ Existe una clase la cual ya tiene definido 4 metodos para realizar operaciones s
 
 ## Poner Todo en marcha:
 
-- Lo primero es tener creada una politica para su lambda y que esta pueda acceder a los servicios de AWS sin ningun problema.
+#### Lo primero es tener creada una politica para su lambda y que esta pueda acceder a los servicios de AWS sin ningun problema.
 
 Vaya al servicio de IAM y cree un role con el siguiente nombre: [processing-image-lambda-role] y las siguientes  politicas ya predefinidas: [AmazonS3FullAccess, AWSOpsWorksCloudWatchLogs].
 
-- Lo segundo seria crear dos bucket de S3 con los siguientes  nombres: [image-processing, image-processing-output].
+#### Lo segundo seria crear dos bucket de S3 con los siguientes  nombres: [image-processing, image-processing-output].
 
 Le puede colocar cualquier nombre si los que definimos arriba ya existe, lo importante aqui es mantener los nombres iguales para los dos bucket con la diferencia que el bucket de salida  le tendria que agrega la palabra output al final.
 
-- Lo ultimo es crear la lambda, cuando cree la lambda no olvide agregar la politica anteriormente creada.
+#### Lo ultimo es crear la lambda, cuando cree la lambda no olvide agregar la politica anteriormente creada.
 
 Estando la lambda ya creada, agrega una variable de entorno con el siguiente nombre: [typeProcessing].
 
@@ -41,5 +41,7 @@ Cuando descargue este codigo instale las dependencias con el siguiente comando:
 Luego de eso, comprima su lambda en un zip, subado a su cuenta de aws y cargue una imagen en el bucket en estrada, se deberia disparar la lambda para procesar la imagen recien subida, para verificar vaya a su bucklet de salida y deberia ver la imagen ya transformada.
 
 Y eso seria todo.
+
+
 
 
