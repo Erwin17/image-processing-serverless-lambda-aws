@@ -26,7 +26,7 @@ Le puede colocar cualquier nombre si los que definimos arriba ya existe, lo impo
 
 Estando la lambda ya creada, agrega una variable de entorno con el siguiente nombre: [typeProcessing].
 
-Ese nombre es utilizado por la lambda para saber que tipo de filtro aplicar, estos son los posibles valores que ustedes puede probar par ala variable de entorno creada: [greyscale, tinte, negate, blur].
+Ese nombre es utilizado por la lambda para saber que tipo de filtro aplicar, estos son los posibles valores que ustedes puede probar para la variable de entorno creada: [greyscale, tinte, negate, blur].
 
 Luego de eso, en la sección de configuracion, agrega un trigger, seleccione el servico de S3, seleccione el bucket de entrada y en el tipo de evento selecciones [All Object Create events].
 
