@@ -40,6 +40,6 @@ Cuando descargue este codigo instale las dependencias con el siguiente comando:
 
 Luego de eso, comprima su lambda en un zip, subado a su cuenta de aws y cargue una imagen en el bucket en estrada, se deberia disparar la lambda para procesar la imagen recien subida, para verificar vaya a su bucklet de salida y deberia ver la imagen ya transformada.
 
-
+Y eso seria todo.
 
 
